@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="C:/Users/sansi/Downloads/Quiz 2 UX/Images/blondie.jpg" alt="Blondie">
+        </div>
+        <div class="slide fade">
+            <img src="C:/Users/sansi/Downloads/Quiz 2 UX/Images/wandi.jpg" alt="Wandi">
+        </div>
+        <div class="slide fade">
+            <img src="C:/Users/sansi/Downloads/Quiz 2 UX/Images/Nandi.jpg" alt="Nandi">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
